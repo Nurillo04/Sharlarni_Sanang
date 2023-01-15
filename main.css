@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 860px;
+    width: 100%;
+}
+
+button {
+    padding: 15px;
+    margin-left: 10px;
+    margin-top: 100px;
+    background-color: darkcyan;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(179, 255, 0);
+}
+
+button:active {
+    background-color: rgb(128, 0, 47);
+}
+
+.circle {
+    padding-top: 100px;
+}
+
+.circle__block {
+    display: flex;
+}
+
+.circle__one {
+    margin-bottom: 100px;
+    border-radius: 50%;
+    padding: 40px;
+}
+
+.circle__left {
+    width: 430px;
+    margin-left: 40px;
+    display: flex;
+    gap: 30px;
+}
+
+.circle__left--two {
+    width: 430px;
+    display: flex;
+    gap: 30px;
+}
+
+.circle__left--span {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(244, 11, 205);
+}
+
+.circle__two {
+    padding: 34px;
+    width: 200px;
+    margin-bottom: 100px;
+    border-radius: 50%;
+}
+
+.circle__right {
+    width: 135px;
+    display: flex;
+    gap: 30px;
+}
+
+.circle__right--two {
+    display: flex;
+    gap: 30px;
+    margin-left: 37px;
+}
+
+.circle__right--span {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(246, 255, 0);
+}
+
+.circle__inp {
+    width: 60px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1.5px 6px grey;
+    margin-left: 290px;
+    padding: 10px;
+}
+
+.circle__btns {
+    margin-left: 145px;
+}
+
+.circle __block {
+    display: flex;
+}
